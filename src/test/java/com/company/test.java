@@ -6,8 +6,10 @@ public class test {
 	
 	@Test
 	
-	public void mytest(){
+	public void mytest() throws InterruptedException
+	{
 		System.out.println("Hello World");
+		Thread.sleep(1000);
 	
 	}
 
